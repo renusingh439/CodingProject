@@ -1,0 +1,8 @@
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\obj\Debug\CodingProject.csproj.AssemblyReference.cache
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\obj\Debug\CodingProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\obj\Debug\CodingProject.csproj.CoreCompileInputs.cache
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\bin\Debug\CodingProject.exe.config
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\bin\Debug\CodingProject.exe
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\bin\Debug\CodingProject.pdb
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\obj\Debug\CodingProject.exe
+C:\Users\RENU SINGH\source\repos\CodingProject\CodingProject\obj\Debug\CodingProject.pdb
