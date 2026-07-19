@@ -13,7 +13,7 @@ namespace CodingProject
         static void Main(string[] args)
         {
             //1st Problem
-            DuplicateChar.DuplicateCharFind();
+          //  DuplicateChar.DuplicateCharFind();
            
             //2nd Problem
             CalculateSalary.SalaryData();

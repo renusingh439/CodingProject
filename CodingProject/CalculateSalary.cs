@@ -14,15 +14,23 @@ namespace CodingProject
     }
     public class CalculateSalary
     {
-        
-        public static Dictionary<string, int> CalculateTotalSalaries(List<WorkLog> logs)
-        {
-            return logs
-                .GroupBy(log => log.EmployeeName)
-                .ToDictionary(
-                    g => g.Key,
-                    g => g.Sum(log => log.HoursWorked * log.HourlyRate)
-                );
+
+       
+      
+
+        public static int CaluculateFinalSalary(int hour, int hourrate) {
+            int extrahour;
+            int sal;
+            if (hour > 40) {
+                extrahour = hour - 40;
+                sal = 40 * hourrate + extrahour * 2 * hourrate;
+            }
+            else
+            {
+                sal = hourrate * hour;
+            }
+            return sal;
+
         }
 
         public static void SalaryData()
@@ -48,13 +56,9 @@ namespace CodingProject
                 logs.Add(new WorkLog { EmployeeName = name, HoursWorked = hours, HourlyRate = rate });
             }
 
-            var calculatedSalaries = CalculateTotalSalaries(logs);
 
-            Console.WriteLine("\nTotal Salaries:");
-            foreach (var v in calculatedSalaries)
-            {
-                Console.WriteLine($"{v.Key}: {v.Value}");
-            }
+          
+          
         }
     }
 }
